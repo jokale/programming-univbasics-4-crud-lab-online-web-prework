@@ -30,7 +30,7 @@ end
 
 def remove_element_from_start_of_array(array)
  array = ["wow", "I", "am", "really", "learning", "arrays!"] 
- p array.
+ p array.shift 
   
 end
 
