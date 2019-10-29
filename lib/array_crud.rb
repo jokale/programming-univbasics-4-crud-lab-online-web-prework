@@ -18,8 +18,8 @@ end
 def add_element_to_start_of_array(array, element)
   array = ["I", "am", "really", "learning"]
     element = "wow"
-    add_element_to_start_of_array(array,element).unshift
-    p add_element_to_ start_of_array(array, element)
+    array.unshift element
+    p array
   
 end
 
